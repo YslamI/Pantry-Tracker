@@ -4,13 +4,13 @@ import { getAnalytics } from "firebase/analytics";
 import {getFirestore} from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "#####################################",
-  authDomain: "########################################",
-  projectId: "#####################################",
-  storageBucket: "########################################",
-  messagingSenderId: "################",
-  appId: "##############################",
-  measurementId: "#-##############"
+  apiKey: API
+  authDomain: DOM
+  projectId: ID
+  storageBucket: STORAGE
+  messagingSenderId: SENDER_ID
+  appId: APP_ID
+  measurementId: MES_ID
 };
 
 // Initialize Firebase
